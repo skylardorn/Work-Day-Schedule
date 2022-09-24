@@ -1,6 +1,10 @@
 
 const $time = document.getElementById('currentTime');
 const $currentDay = document.getElementById('currentDay');
+const $save = document.getElementsByClassName('saveBtn');
+const $input = document.getElementsByClassName('9am');
+$input.textContent = localStorage.getItem($save);
+
 
 
 function timerFunction() {
@@ -19,4 +23,14 @@ function currentTime(i) {
     if (i < 10) {i = "0" + i};
     return i;
 }
+
+$save.addEventListener("click", function(e) {
+    e.preventDefault();
+    
+    
+
+    localStorage.setItem($input.getAttribute("class"), $input.value);
+    });
+
+console.log("clicked");
 
