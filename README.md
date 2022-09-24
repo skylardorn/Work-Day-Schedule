@@ -10,7 +10,7 @@ As a user I want to be able to keep track of my busy day hour to hour.
 
 ## Mock Up
 
-![Screenshot](./screenshot.png)
+![Screenshot](./Develop/Assets/Images/screenshot.png)
 
 ## Project Link
 ![Link](https://github.com/skylardorn/Work-Day-Schedule)
